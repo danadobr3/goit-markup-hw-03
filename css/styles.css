@@ -49,6 +49,7 @@ body {
     letter-spacing: 0.02em;
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
 }
 
 .nav:hover,
@@ -82,10 +83,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
 }
 .button {
     color: var(--button);
@@ -119,7 +118,6 @@ body {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 188px;
     padding-top: 16px;
     padding-right: 32px;
     padding-bottom: 16px;
@@ -144,9 +142,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 264px;
-margin-bottom: 100px;
-margin-left: 156px;
-
 color: var(--background);
 }
 .logo {
@@ -167,7 +162,6 @@ font-family: "Raleway", sans-serif;
     background-color: var(--normal);
     padding-top: 188px;
     padding-bottom: 188px;
-    margin-bottom: 120px;
 }
 .text-main {
     color: var(--white);
@@ -223,11 +217,11 @@ padding-bottom: 120px;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        text-transform: capitalize;
+        margin-bottom: 72px;
         text-align: center;
         margin-right: auto;
         margin-left: auto;
-        text-transform: capitalize;
-        margin-bottom: 72px;
 }
 .studio {
 color: var(--background);
@@ -253,7 +247,6 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 .container {
-    border-bottom: 1px solid #e7e9fc;
     width: 1158px;
     margin-right: auto;
     margin-left: auto;
@@ -266,8 +259,6 @@ align-items: center;
 }
 .line-header{
 border-bottom: 1px solid #e7e9fc;
-padding-top: 24px;
-padding-bottom: 24px;
 }    
 .menu {
     display: flex;
@@ -299,8 +290,9 @@ text-align: center;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.lines {
+.header {
     display: flex;
+    align-items: center;
 }
 .section-portfolio {
     padding-top: 96px;
@@ -337,8 +329,6 @@ text-align: center;
     text-align: left;
     text-transform: uppercase;
     color: var(--button);
-    margin-right: 76px;
     display: inline-block;
     margin-bottom: 16px;
-    margin-left: 156px;
 }
