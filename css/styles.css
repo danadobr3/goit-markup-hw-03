@@ -84,8 +84,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin-right: auto;
-    margin-left: auto;
 }
 .paragraph {
     color: var(--paragraphs);
